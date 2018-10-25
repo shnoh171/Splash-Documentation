@@ -11,17 +11,22 @@ Welcome to Splash's documentation!
 Splash is a stream processing language for real-time and embedded AI. It represents stream processing algorithms graphically, generates code that can be executed on runtime, and supports the correct implementation of the algorithms.
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   :maxdepth: 1 
+   :caption: Language Overview:
 
    language_overview/basic_concepts
    language_overview/language_constructs
+   language_overview/timing_constraint_annotation
+   language_overview/exception_handling
 
+.. toctree::
+   :maxdepth: 1 
+   :caption: Schematic Capture:
 
+.. toctree::
+   :maxdepth: 1 
+   :caption: Code Generation:
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+.. toctree::
+   :maxdepth: 1 
+   :caption: Splash Runtime:
