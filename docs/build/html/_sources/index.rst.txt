@@ -23,7 +23,7 @@ Splash is a stream processing language for real-time and embedded AI. It represe
    :maxdepth: 1 
    :caption: Schematic Capture:
 
-   schematic_capture/how_to_install
+   schematic_capture/how_to_install_gui_based_schematic_capture_tool
    schematic_capture/creating_a_new_project
    schematic_capture/designing_an_application
    schematic_capture/producing_result_in_json_format
@@ -31,6 +31,8 @@ Splash is a stream processing language for real-time and embedded AI. It represe
 .. toctree::
    :maxdepth: 1 
    :caption: Code Generation:
+
+   code_generation/how_to_install_code_generation_tool
 
 .. toctree::
    :maxdepth: 1 
