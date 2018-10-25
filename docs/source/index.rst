@@ -14,13 +14,7 @@ Splash is a stream processing language for real-time and embedded AI. It represe
    :maxdepth: 2
    :caption: Contents:
 
-   Introduction
-   Basic Concepts
-   Language Constructs
-   Timing Annotation
-   Exception Handling
-   Code Generation
-   Splash APIs
+   language_overview/basic_concepts
 
 
 
