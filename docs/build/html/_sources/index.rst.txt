@@ -10,6 +10,14 @@ Welcome to Splash's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   Introduction
+   Basic Concepts
+   Language Constructs
+   Timing Annotation
+   Exception Handling
+   Code Generation
+   Splash APIs
+
 
 
 Indices and tables
