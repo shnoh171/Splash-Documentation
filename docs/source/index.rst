@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Splash's documentation!
+Welcome to Splash Documentation!
 ==================================
 
 .. image:: ../images/3D_object_detection_example.png
