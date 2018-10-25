@@ -33,7 +33,15 @@ Splash is a stream processing language for real-time and embedded AI. It represe
    :caption: Code Generation:
 
    code_generation/how_to_install_code_generation_tool
+   code_generation/allocating_hardware_resources
+   code_generation/generating_skeleton_codes
+   code_generation/specifyng_the_algorithms
+   code_generation/how_to_compile_and_build
 
 .. toctree::
    :maxdepth: 1 
-   :caption: Splash Runtime:
+   :caption: Runtime Systems:
+
+   runtime_systems/how_to_run
+   runtime_systems/runtime_software_stack
+   runtime_systems/splash_runtime_apis
