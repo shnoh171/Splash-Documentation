@@ -10,6 +10,7 @@ Processing Block
 
 .. image:: ../../images/processing_block.png
    :align: center
+   :width: 70%
 
 The processing block is the smallest execution unit of stream processing. It takes a set of data elements as input, performs an operation defined by the developer, and outputs the results.
 
