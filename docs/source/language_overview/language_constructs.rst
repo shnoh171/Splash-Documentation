@@ -19,6 +19,7 @@ Factory
 
 .. image:: ../../images/factory.png
    :align: center
+   :scale: 90 % 
 
 The factory is the largest building block of stream processing and contains a data flow graph that combines Splash language constructs internally. The node of the data flow graph is the component. The edge of the data flow graph is the pipe.
 
@@ -27,7 +28,7 @@ Fusion Operator
 
 .. image:: ../../images/fusion_operator.png
    :align: center
-   :scale: 70 % 
+   :scale: 65 % 
 
 The fusion operator is an operator that merges multiple stream data into one stream data.
 
@@ -36,7 +37,7 @@ Selection Operator
 
 .. image:: ../../images/selection_operator.png
    :align: center
-   :scale: 70 % 
+   :scale: 66 % 
 
 The selection operator is an operator that selects the delivery path for an input stream data.
 
