@@ -1,6 +1,9 @@
 Language Constructs of Splash
 =============================
 
+Overview
+--------
+
 .. image:: ../../images/UML_language_construct.png
    :align: center
 
