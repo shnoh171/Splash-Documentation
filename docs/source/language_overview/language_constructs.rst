@@ -3,6 +3,7 @@ Language Constructs of Splash
 
 .. image:: ../../images/UML_language_construct.png
    :align: center
+   :scale: 80 % 
 
 Component
 ---------
