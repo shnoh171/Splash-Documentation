@@ -10,6 +10,12 @@ Welcome to Splash Documentation!
 
 Splash is a stream processing language for real-time and embedded AI. It represents stream processing algorithms graphically, generates code that can be executed on runtime, and supports the correct implementation of the algorithms.
 
+1. Splash visually expresses the flow of sensor stream data processing so that developers can easily grasp the complex interworking of a given AI program. 
+2. Splash let developers explicitly annotate the timing constraints of stream processing. 
+3. Splash allows developers to define exceptions and specify the handling of each exception. 
+4. Splash can describe complex synchronization issues of sensor fusion algorithms more perceptibly. 
+5. Splash supports integration between domains that are developed with different programming paradigms such as data-driven and time-driven.
+
 .. toctree::
    :maxdepth: 1 
    :caption: Language Overview:
