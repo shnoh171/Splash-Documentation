@@ -14,8 +14,8 @@ TODO: Description
 
 TODO: Description
 
-A. Processing Block
-...................
+1.A. Processing Block
+.....................
 
 .. image:: ../../images/processing_block.png
    :align: center
@@ -23,8 +23,8 @@ A. Processing Block
 
 The processing block is the smallest execution unit of stream processing. It takes a set of data elements as input, performs an operation defined by the developer, and outputs the results.
 
-B. Factory
-..........
+1.B. Factory
+............
 
 .. image:: ../../images/factory.png
    :align: center
@@ -32,8 +32,8 @@ B. Factory
 
 The factory is the largest building block of stream processing and contains a data flow graph that combines Splash language constructs internally. The node of the data flow graph is the component. The edge of the data flow graph is the pipe.
 
-C. Fusion Operator
-..................
+1.C. Fusion Operator
+....................
 
 .. image:: ../../images/fusion_operator.png
    :align: center
@@ -41,8 +41,8 @@ C. Fusion Operator
 
 The fusion operator is an operator that merges multiple stream data into one stream data.
 
-D. Selection Operator
-.....................
+1.D. Selection Operator
+.......................
 
 .. image:: ../../images/selection_operator.png
    :align: center
@@ -50,13 +50,13 @@ D. Selection Operator
 
 The selection operator is an operator that selects the delivery path for an input stream data.
 
-E. Source
-.........
+1.E. Source
+...........
 
 TODO: Description
 
-F. Sink
-.......
+1.F. Sink
+.........
 
 TODO: Description
 
