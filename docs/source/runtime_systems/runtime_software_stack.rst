@@ -1,4 +1,5 @@
 Runtime Software Stack
 ======================
 
-Test
+.. image:: ../../images/Splash_SW_stack.png
+   :align: center
