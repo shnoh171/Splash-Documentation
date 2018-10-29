@@ -5,8 +5,8 @@ Overview
 --------
 
 ..
-.. image:: ../../images/UML_language_construct.png
-   :align: center
+	.. image:: ../../images/UML_language_construct.png
+   	:align: center
 
 TODO: Description
 
