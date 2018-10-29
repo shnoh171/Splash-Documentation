@@ -1,8 +1,8 @@
 Basic Concept
 =============
 
-1. Basic Structure of a Splash Program
---------------------------------------
+1. Structure of a Splash Program
+--------------------------------
 
 2.Data Model
 ------------
