@@ -61,6 +61,6 @@ Pipe
 
 .. image:: ../../images/pipe.png
    :align: center
-   :scale: 70 % 
+   :scale: 60 % 
 
 The pipe is a delivery path for data and connects two ports.
