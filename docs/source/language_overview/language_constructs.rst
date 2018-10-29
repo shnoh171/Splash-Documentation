@@ -50,8 +50,12 @@ The selection operator is an operator that selects the delivery path for an inpu
 Source
 ......
 
+TODO: Description
+
 Sink
 ....
+
+TODO: Description
 
 Port
 ----
