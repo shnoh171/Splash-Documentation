@@ -50,9 +50,16 @@ Sink
 Port
 ----
 
+.. image:: ../../images/port.png
+   :align: center
+   :scale: 70 % 
+
 The port is a part of a component where data can enter or leave.
 
 Pipe
 ----
+
+.. image:: ../../images/pipe.png
+   :align: center
 
 The pipe is a delivery path for data and connects two ports.
