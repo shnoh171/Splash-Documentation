@@ -82,8 +82,9 @@
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="basic_concepts.html">Basic Concept</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Language Constructs of Splash</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#factory">Factory</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#component">Component</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#processing-block">Processing Block</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#factory">Factory</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#fusion-operator">Fusion Operator</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#selection-operator">Selection Operator</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#source">Source</a></li>
@@ -181,21 +182,26 @@
             
   <div class="section" id="language-constructs-of-splash">
 <h1>Language Constructs of Splash<a class="headerlink" href="#language-constructs-of-splash" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="factory">
-<h2>Factory<a class="headerlink" href="#factory" title="Permalink to this headline">¶</a></h2>
-<div class="figure align-center">
-<img alt="Notation of a factory" src="../_images/factory.png" />
-</div>
-<p>The factory is the largest building block of stream processing and contains a data flow graph that combines Splash language constructs internally. The node of the data flow graph is the processing cell, fusion operator, selection operator and factory. The edge of the data flow graph is the pipe.</p>
+<div class="section" id="component">
+<h2>Component<a class="headerlink" href="#component" title="Permalink to this headline">¶</a></h2>
 </div>
 <div class="section" id="processing-block">
 <h2>Processing Block<a class="headerlink" href="#processing-block" title="Permalink to this headline">¶</a></h2>
+<img alt="../_images/processing_block.png" class="align-center" src="../_images/processing_block.png" />
+<p>The processing block is the smallest execution unit of stream processing. It takes a set of data elements as input, performs an operation defined by the developer, and outputs the results.</p>
+</div>
+<div class="section" id="factory">
+<h2>Factory<a class="headerlink" href="#factory" title="Permalink to this headline">¶</a></h2>
+<img alt="../_images/factory.png" class="align-center" src="../_images/factory.png" />
+<p>The factory is the largest building block of stream processing and contains a data flow graph that combines Splash language constructs internally. The node of the data flow graph is the component. The edge of the data flow graph is the pipe.</p>
 </div>
 <div class="section" id="fusion-operator">
 <h2>Fusion Operator<a class="headerlink" href="#fusion-operator" title="Permalink to this headline">¶</a></h2>
+<p>The fusion operator is an operator that merges multiple stream data into one stream data.</p>
 </div>
 <div class="section" id="selection-operator">
 <h2>Selection Operator<a class="headerlink" href="#selection-operator" title="Permalink to this headline">¶</a></h2>
+<p>The selection operator is an operator that selects the delivery path for an input stream data.</p>
 </div>
 <div class="section" id="source">
 <h2>Source<a class="headerlink" href="#source" title="Permalink to this headline">¶</a></h2>
@@ -205,9 +211,11 @@
 </div>
 <div class="section" id="port">
 <h2>Port<a class="headerlink" href="#port" title="Permalink to this headline">¶</a></h2>
+<p>The port is a part of a component where data can enter or leave.</p>
 </div>
 <div class="section" id="pipe">
 <h2>Pipe<a class="headerlink" href="#pipe" title="Permalink to this headline">¶</a></h2>
+<p>The pipe is a delivery path for data and connects two ports.</p>
 </div>
 </div>
 
