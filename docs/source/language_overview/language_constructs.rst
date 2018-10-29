@@ -1,4 +1,7 @@
 Language Constructs of Splash
 =============================
 
-Test
+Factory
+=======
+
+
