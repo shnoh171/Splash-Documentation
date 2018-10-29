@@ -9,6 +9,9 @@ TODO: Description
 Component
 ---------
 
+.. image:: ../../images/UML_component.png
+   :align: center
+
 TODO: Description
 
 Processing Block
