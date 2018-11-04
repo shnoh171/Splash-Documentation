@@ -13,6 +13,8 @@ The freshness constraint is the time at which a given stream data element is val
 
 For a port :math:`p`, let :math:`S_p` denotes a set of sources used to produce a data element for :math:`p`.
 
+Since Pythagoras, we know that :math:`a^2 + b^2 = c^2`.
+
 2. Correlation Constraint
 -------------------------
 
